@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>world of birds</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-bold ms-5" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-feather"
+          viewBox="0 0 16 16">
+          <path
+            d="M15.807.531c-.174-.177-.41-.289-.64-.363a3.8 3.8 0 0 0-.833-.15c-.62-.049-1.394 0-2.252.175C10.365.545 8.264 1.415 6.315 3.1S3.147 6.824 2.557 8.523c-.294.847-.44 1.634-.429 2.268.005.316.05.62.154.88q.025.061.056.122A68 68 0 0 0 .08 15.198a.53.53 0 0 0 .157.72.504.504 0 0 0 .705-.16 68 68 0 0 1 2.158-3.26c.285.141.616.195.958.182.513-.02 1.098-.188 1.723-.49 1.25-.605 2.744-1.787 4.303-3.642l1.518-1.55a.53.53 0 0 0 0-.739l-.729-.744 1.311.209a.5.5 0 0 0 .443-.15l.663-.684c.663-.68 1.292-1.325 1.763-1.892.314-.378.585-.752.754-1.107.163-.345.278-.773.112-1.188a.5.5 0 0 0-.112-.172M3.733 11.62C5.385 9.374 7.24 7.215 9.309 5.394l1.21 1.234-1.171 1.196-.027.03c-1.5 1.789-2.891 2.867-3.977 3.393-.544.263-.99.378-1.324.39a1.3 1.3 0 0 1-.287-.018Zm6.769-7.22c1.31-1.028 2.7-1.914 4.172-2.6a7 7 0 0 1-.4.523c-.442.533-1.028 1.134-1.681 1.804l-.51.524zm3.346-3.357C9.594 3.147 6.045 6.8 3.149 10.678c.007-.464.121-1.086.37-1.806.533-1.535 1.65-3.415 3.455-4.976 1.807-1.561 3.746-2.36 5.31-2.68a8 8 0 0 1 1.564-.173" />
+        </svg>
+        Birdly</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-semibold fs-5" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-semibold fs-5" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle fw-semibold fs-5" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Bird Identification</a></li>
+              <li><a class="dropdown-item" href="#">Bird Watching guides</a></li>
+              <li><a class="dropdown-item" href="#">Species Information</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-semibold fs-5" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark fw-semibold fs-5 me-5" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- slider -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bird.webp" class="d-block w-100" alt="bird">
+      </div>
+      <div class="carousel-item">
+        <img src="images/b-4.jpg" class="d-block w-100" alt="bird">
+      </div>
+      <div class="carousel-item">
+        <img src="images/b-3.jpg" class="d-block w-100" alt="bird">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- main-tagline-->
+  <div class="container-fluid">
+    <div class="row mt-4 mb-2">
+      <div class="col-12 text-center text-success fw-bold">
+        <h3 class="display-6">"In the midst of chaos, birds remind us of the freedom to fly."</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- features-section -->
+  <div class="container-fluid">
+    <div class="row gy-5 pb-5 px-5 row-cols-1 row-cols-md-3 mt-1 bg-gradient"
+      style="background-color: rgb(214, 247, 214);">
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-1 mt-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+            <path
+              d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707z" />
+            <path
+              d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-4 text-body-emphasis">Bird Care Guide</h3>
+          <p>Our Bird Care Guide is your ultimate resource for understanding the needs of pet birds.Whether you're a
+            first-time bird owner or a seasoned
+            enthusiast, our guide provides comprehensive information to help you care for birds in all aspects of their
+            life.</p>
+          <a href="birdcareguide.html" class="btn btn-dark">
+            Read More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 mt-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-camera"
+            viewBox="0 0 16 16">
+            <path
+              d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
+            <path
+              d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-4 text-body-emphasis">Bird Watching Locations</h3>
+          <p>Find the top bird-watching spots near you or around the globe. Our guide includes directions, the best
+            times
+            to visit, and which bird species you can expect to see. Ideal for adventurers seeking to witness birds in
+            their natural environments.</p>
+          <a href="birdwatching.html" class="btn btn-dark">
+            Read More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 mt-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-globe-americas" viewBox="0 0 16 16">
+            <path
+              d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-4 text-body-emphasis">Conservation Tips</h3>
+          <p>Join the movement to protect our feathered friends! Learn simple steps you can take to support bird
+            conservation, such as creating safe nesting spaces, avoiding harmful pesticides, and supporting local
+            conservation organizations.</p>
+          <a href="conservationtips.html" class="btn btn-dark">
+            Read More
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- progress -->
+  <div class="container-fluid mb-5">
+    <div class="row mt-3 mb-2 px-5 justify-content-evenly">
+      <div class="col-md-5 pt-4  pt-md-5">
+        <img src="images/red-birds.webp" alt="birds" class="img-fluid">
+      </div>
+      <div class="col-md-5 pt-3">
+
+        <p class="mt-xl-4 fw-semibold">Migratory Birds</p>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 25%">25%</div>
+        </div>
+
+        <p class="mt-xl-4 fw-semibold">Songbirds</p>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="80">
+          <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
+        </div>
+
+        <p class="mt-xl-4 fw-semibold">Raptors</p>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+        </div>
+
+        <p class="mt-xl-4 fw-semibold">Tropical Birds</p>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact form and other sections in it-->
+  <div class="container-fluid pt-4" style="background-color: rgb(214, 247, 214);">
+    <div class="row mb-2 px-5 py-2 justify-content-evenly">
+      <div class="col-md-5 pb-2 mt-4">
+        <h3 class="mb-3 mt-2">Contact Form</h3>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputUsername" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleInputUsername">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-5 mt-4">
+        <h3 class="mb-3 mt-2">Address</h3>
+        <div class="mb-3">
+          Tiwariganj,Lucknow <br>
+          Uttar Pradesh <br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+            class="bi bi-telephone me-1" viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+          </svg>:8997676443
+        </div>
+
+        <div class="mb-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1172397809873!2d81.06494396047765!3d26.892998060474458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399958aa9da50cb7%3A0x8f5a1f4d75d0d691!2sShri%20Ramswaroop%20College%20Of%20Engineering%20and%20Management!5e0!3m2!1sen!2sin!4v1731747460022!5m2!1sen!2sin"
+            style="width: 100%;" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- faq -->
+    <div class="row pt-3 pb-5 justify-content-evenly">
+      <div class="col-md-10" style="background-color: rgb(214, 247, 214);">
+        <h3 class=" text-center mb-3">FAQ</h3>
+
+        <div class="accordion accordion-flush border border-dark" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Can I contribute to the website?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Absolutely! You can upload your bird sightings, pictures, or suggest
+                improvements.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Are the bird facts scientifically verified?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Yes, all our information is sourced from credible ornithological research and
+                databases.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                What is the purpose of this website?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">This website is dedicated to helping bird enthusiasts learn about various bird
+                species, their habitats, and conservation efforts.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="row pt-5 pb-5 justify-content-evenly text-light" style="background-color: black;">
+      <div class="col-sm-3 pt-4 text-center text-md-start">
+        <h4 class="pb-2 fw-bold" style="color: aquamarine;">Birdly</h4>
+        <p>Our mission is to inspire and educate bird enthusiasts through detailed insights into avian life.</p>
+      </div>
+      <div class="col-sm-3 pt-4 text-center text-md-start">
+        <h4 class="pb-2 fw-bold" style="color: aquamarine;">Important links</h4>
+        <p>
+          <a href="#" class="link-light text-decoration-none">Home</a> <br>
+          <a href="#" class="link-light text-decoration-none">About Us</a><br>
+          <a href="#" class="link-light text-decoration-none">Contact Us</a><br>
+          <a href="#" class="link-light text-decoration-none">Services</a>
+        </p>
+      </div>
+      <div class="col-sm-3 pt-4 text-center text-md-start">
+        <h4 class="pb-2 fw-bold" style="color: aquamarine;">Contact Us</h4>
+        <p>Tiwariganj,Lucknow <br> Uttar Pradesh <br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+            class="bi bi-telephone me-1" viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+          </svg>: 8997676443
+        </p>
+      </div>
+    </div>
+    <div class="row pt-3 bg-success justify-content-evenly">
+      <div class="col-10 text-center fw-bold">
+        <p>&copy; 2025 Birdly. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+    <!-- container-end -->
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
